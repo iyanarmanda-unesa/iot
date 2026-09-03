@@ -41,26 +41,4 @@ void setup() {
 void loop() {
   traffic(RED_A, GREEN_B, YELLOW_B);
   traffic(RED_B, GREEN_A, YELLOW_A);
-
-//  traffic_stop(RED_B);
-//  traffic_go(GREEN_A, YELLOW_A);
-
- //  	digitalWrite(RED, HIGH);
- //   delay(1000);
- //   digitalWrite(RED, LOW);
-
- //   for (int i=0; i<5; i++) {
- //     delay(1000);
- //     digitalWrite(YELLOW, HIGH);
- //     delay(1000);
- //     digitalWrite(YELLOW, LOW);
- //   }
-
-//    digitalWrite(YELLOW, HIGH);
-//    delay(2000);
-//    digitalWrite(YELLOW, LOW);
-
- //   analogWrite(GREEN, 255);
- //   delay(8000);
- //   analogWrite(GREEN, 0);
 }
