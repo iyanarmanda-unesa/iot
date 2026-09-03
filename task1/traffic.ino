@@ -30,11 +30,11 @@ void traffic(int lamp_green, int lamp_red, int lamp_yellow) {
 }
 
 void setup() {
-	pinMode(RED_A, OUTPUT);
-	pinMode(YELLOW_A, OUTPUT);
+  pinMode(RED_A, OUTPUT);
+  pinMode(YELLOW_A, OUTPUT);
   pinMode(GREEN_A, OUTPUT);
-	pinMode(RED_B, OUTPUT);
-	pinMode(YELLOW_B, OUTPUT);
+  pinMode(RED_B, OUTPUT);
+  pinMode(YELLOW_B, OUTPUT);
   pinMode(GREEN_B, OUTPUT);
 }
 
